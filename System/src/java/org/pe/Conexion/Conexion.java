@@ -15,6 +15,8 @@ import java.sql.*;
  *
  * @author Alumno
  */
+ 
+ "TE MODIFICO  DESDE EL GIT"
 public class Conexion {
    public Connection conexion=null;
    public String qry=null;
