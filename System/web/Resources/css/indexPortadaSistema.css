@@ -1,0 +1,128 @@
+/* 
+    Document   : indexPortada
+    Created on : 26/06/2012, 10:44:01 PM
+    Author     : José Manuel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.body{
+    background: steelblue;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width:1365px;
+    height:670px;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+#LayerHead {
+    background: url(../img/banner.jpg);
+    position:absolute;
+    left:160px;
+    top:10px;
+    width:994px;
+    height:150px;
+    z-index:1;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#LayerBody {
+    background: #EBEBEB;
+    border: #333;
+    position:absolute;
+    left:354px;
+    top:160px;
+    width:800px;
+    height:505px;
+    z-index:2;
+}
+#LayerMenu {
+    background:  lightsteelblue;
+    position:absolute;
+    left:160px;
+    top:160px;
+    width:194px;
+    height:505px;
+    z-index:3;
+}
+#LayerFooter {
+    background: url(../img/banner.jpg);
+    position:absolute;
+    left:160px;
+    top:665px;
+    width:994px;
+    height:70px;
+    z-index:5;
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#simpleList{
+    font-family: verdana;
+    font-size: 11px;
+}
+#subtitleList{
+    font-family: verdana;
+    text-align: center;
+    font-size: 13px;
+}
+.formList{
+    font-family: verdana;
+    font-size: 11px;
+    text-align: right;
+}
+.FormButtons{
+    font-family: verdana;
+    font-size: 11px;
+}
+
+input[type=submit],input[type=reset]{
+    font-family: verdana;
+    font-size: 11px;
+}
+.filaForm{
+    text-align: right;
+}
+#formListEstandar{
+    font-family: verdana;
+    font-size: 11px;
+}
+.selectEstandar{
+    width: 400px;
+}
+.portada{
+    background: lightsteelblue;
+}
+#login{
+    margin-top: 240px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: verdana;
+    font-size: 11px;
+    width: 300px;
+    height: 195px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background: steelblue;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+table{
+    border-collapse: collapse;
+
+}
+td{
+    height: 25px;
+
+
+}
+th{
+    height: 25px;
+}
